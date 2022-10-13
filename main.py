@@ -1,3 +1,7 @@
+import requests
+import time
+from datetime import datetime
+
 def log(message):
     print("[{}] {}".format(datetime.now().strftime("%H:%M:%S%f")[0:-5], message))
         
